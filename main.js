@@ -7,8 +7,6 @@ botaoSalvar.addEventListener("click", e => {
   e.preventDefault()
 
   tabela.innerHTML += montarLinhaTabela(nomeContato.value, numeroContato.value)
-
-
 })
 
 function montarLinhaTabela(nome, contato) {
