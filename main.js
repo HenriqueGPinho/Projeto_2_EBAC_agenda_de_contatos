@@ -13,7 +13,6 @@ botaoSalvar.addEventListener('click', () => {
     nomeContato.value = ''
     numeroContato.value = ''
   }
-  //TODO: apagar os campos depois de clicar em salvar, mudar o campo de número para texto
 })
 
 function montarLinhaTabela(nome, contato) {
