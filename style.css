@@ -21,7 +21,9 @@ h1 {
 }
 
 input,
-button {
+button,
+th,
+td {
   padding: 8px;
   margin: 8px;
 }
@@ -31,11 +33,16 @@ table {
   width: 100%;
 }
 
-button {
+button,
+table {
   width: calc(100% - 16px);
 }
 
-tr:nth-child(odd) {
+table {
+  margin: 8px;
+}
+
+tr {
   background-color: lightgrey;
 }
 
