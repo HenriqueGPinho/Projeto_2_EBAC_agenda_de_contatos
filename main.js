@@ -4,7 +4,6 @@ let botaoSalvar = document.getElementById('salvar-contato')
 let tabela = document.getElementById('tabela-contatos')
 
 botaoSalvar.addEventListener('click', () => {
-
   if (nomeContato.value === '' || numeroContato.value === '') {
     alert('Preencha os dois campos do formulário!')
   } else {
